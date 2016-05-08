@@ -30,7 +30,7 @@ Here, its defined the CPT of variables. Age and nationality are independent. We 
 
 ![alt tag](img/4.png)
 
-The var sports depends of the values of age and nationality:
+The var sports depends of the values of age and nationality. The product of age var length (a1,a2,a3) with nationality (b1,b2) and sports(c1 , c2) guarantee the 12 values of probability of the table.
 
 ![alt tag](img/5.png)
 
