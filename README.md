@@ -21,6 +21,10 @@ This package has the domains used to define our variables. So, we can use the Ar
 ***ExampleRV.java***
 With this package, we can find the file ExampleRV.java that defines the random variables, using the domain ArbitraryTokenDomain. (This package also has the book (AIMA 3 ) examples of weather, toothache.
 
+We can map the variables easily:
+![alt tag](img/7.png)
+
+
 We will define ours RV age, nationality, sports and watchTV
 
 ![alt tag](img/3.png)
