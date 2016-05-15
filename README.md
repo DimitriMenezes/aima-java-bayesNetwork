@@ -45,11 +45,32 @@ WatchTv depends on sports values:
 
 *** Class FullCPTNode ***
 
-A  FullCPTNode tem uma função fundamental no mapeamento da rede. Ela recebe como parâmetro a variável do domínio que foi declarada  na classe ExampleRV, recebe também um vetor de double que representa as probabilidades associadas a essa variável que representa um nó na rede Bayesiana. Por fim ela pode também receber outras variáveis que já foram declaradas anteriormente para que seja feito o relacionamento entre os pais e seus filhos em uma rede Bayesiana.
+
+FucllCPTNode class its very important. It´s has three parameters on its constructor: 
+1) The random variable
+2) An array of values
+3) Dependent variables
+
+
+** Errors while constructing CPTs **
+Its common having two kind of errors at this step:
+
+When you try to insert more values than allowed to the table:
+
+![alt tag](img/8.png)
+
+
+When the sum of values is different from 1:
+
+![alt tag](img/9.png)
 
 
 ### aima.gui.demo.probabilty
 This package has the class with main method to run the probabilities algorithms.
+Here, there is an importante class called AssignProposition that gives the variables some meaning to make querires easier:  
+
+
+![alt tag](img/10.png)
 
 
 
